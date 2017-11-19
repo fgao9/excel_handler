@@ -1,0 +1,24 @@
+This project is used to merge excel files.
+
+============Usage=======================
+
+1. Install needed packages
+
+   pip install pandas xlrd xlwt
+
+2. Generate test files(If needed)
+
+   python test_data_generate.py
+
+   New file named 'test.xls' under data folder
+
+3. Merge file
+
+   python merge.py --file data\test.xls --option "Total Score"
+
+   Parameters:
+
+   '--file': Specify file path using
+
+   '--option': The option you want to write in the final result
+
